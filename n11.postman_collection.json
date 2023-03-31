@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "813bd4dd-74e2-41cb-8822-d0c125aa84ba",
+		"name": "n11",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.n11.com/arama?q=nike",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.n11.com/arama?q=nike",
+					"protocol": "https",
+					"host": [
+						"www",
+						"n11",
+						"com"
+					],
+					"path": [
+						"arama"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "nike"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.n11.com/arama/tamamla?keyword=nike",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.n11.com/arama/tamamla?keyword=nike",
+					"protocol": "https",
+					"host": [
+						"www",
+						"n11",
+						"com"
+					],
+					"path": [
+						"arama",
+						"tamamla"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "nike"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.n11.com/hesabim/hesap-bilgileri",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.n11.com/hesabim/hesap-bilgileri",
+					"protocol": "https",
+					"host": [
+						"www",
+						"n11",
+						"com"
+					],
+					"path": [
+						"hesabim",
+						"hesap-bilgileri"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.n11.com/live-chat?pathName=/arama",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.n11.com/live-chat?pathName=/arama",
+					"protocol": "https",
+					"host": [
+						"www",
+						"n11",
+						"com"
+					],
+					"path": [
+						"live-chat"
+					],
+					"query": [
+						{
+							"key": "pathName",
+							"value": "/arama"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
